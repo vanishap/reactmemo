@@ -1,6 +1,7 @@
 import React,{memo} from 'react';
 
 const Todos = ({todos}) => {
+  console.log('rendered from todo');
   return (
     <div>
       <h2>My Todos</h2>

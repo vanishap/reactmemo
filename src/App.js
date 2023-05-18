@@ -5,7 +5,7 @@ import Todos from './Todos';
 function App() {
   const [count, setCount] = useState(0);
   const [todos, setTodos]= useState(['Buy Groceries', 'School pick up']);
-
+  console.log('rendered from app');
   return (
     <div className="App">
       <Todos todos= {todos}/>
